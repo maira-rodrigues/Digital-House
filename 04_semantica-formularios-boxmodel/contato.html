@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="/css/estilos.css" rel="stylesheet" type="text/css">
+    <title>Formulário de contato</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Contato</h1>
+    <p>Vá para meu <a href="curriculo.html">currículo</a><br>
+    Vá para meus <a href="hobbies.html">hobbies</a></p>
+    </header>
+
+    <section>
+    
+    <form action="script.php" method="POST">
+    
+        <label for="nome" > <strong>Nome e sobrenome:</strong> </label>
+        <br>
+        <input id="nome" type="text" name="usuario"  placeholder="Nome Sobrenome" value="" required/>
+        <br>
+
+        <label for="email" > E-mail: </label>
+        <br>
+        <input type="email" id="email" placeholder="email@email.com" required><br>
+
+        <label for="assunto"> <strong>Assunto da mensagem</strong></label>
+        <br>
+        <select name="assunto" id="assunto">
+            <option value="1">Assunto1</option>
+            <option value="2">Assunto2</option>
+            <option value="3">Assunto3</option>
+        </select><br>
+
+        <label for="gen"><strong>Gênero</strong></label>
+        <br>
+        <label for="fem">Feminino</label>
+        <input id="fem" type="radio" name="genero" value="feminino"><br>
+        <label for="masc">Masculino</label>
+        <input id="masc" type="radio" name="genero" value="masculino"><br>
+        <label for="x">Prefiro não responder</label>
+        <input id="x" type="radio" name="genero" value="prefiro não responder"><br>
+
+        <label id="hobby"><strong>Passatempos</strong></label>
+        <br>
+        <label for="nadar">Nadar</label>
+        <input type="checkbox" id="nadar" name="hobbies" value="Nadar">
+        <br>
+        <label for="bol">Jogar boliche</label>
+        <input type="checkbox" id="bol" name="hobbies" value="Jogar boliche">
+        <br>
+        <label for="cin">Ir ao cinema</label>
+        <input type="checkbox" id="cin" name="hobbies" value="Ir ao cinema">
+        <br>
+
+        <label for="comentario"><strong>Comentário:</strong></label>
+        <br>
+        <textarea  id="comentario" rows="4" cols="50" name="comentario" form="usrform" placeholder="Escreva seu comentário" required></textarea>
+        <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</section> 
+    <footer>
+        <p>
+            Rodapé desta página
+        </p>
+    </footer>
+  
+</body>
+</html>

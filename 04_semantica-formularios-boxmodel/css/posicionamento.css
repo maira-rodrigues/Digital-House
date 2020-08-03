@@ -1,0 +1,18 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: turquoise;
+    
+}
+
+header{
+    background-color: tomato;
+}
+
+.produtos{
+    background-color: thistle;
+    width: 960px;
+}
+
+.itens{
+    padding:10px;
+}
