@@ -1,0 +1,26 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size:25px;
+    color: #1a237e;
+    background-color: #f1f8e9;
+}
+
+input{
+    padding:10px;
+    background-color:#9ccc65;
+}
+
+input:focus{
+    background-color:#f1f8e9;
+    transform: scale(1.1);
+   }
+
+::placeholder{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 18px;
+    color: #1a237e;
+    text-align: center;
+}
+#btn_iniciar_jogo:hover{
+    transform: scale(1.2);
+}
