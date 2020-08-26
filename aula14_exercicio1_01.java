@@ -1,12 +1,10 @@
-package tarefa;
-
-		/*Um funcionário de uma empresa recebe aumento salarial anualmente.
+		/* 1. Um funcionÃ¡rio de uma empresa recebe aumento salarial anualmente.
 		Sabe-se que: 
-		Esse funcionário foi contratado em 1995, com o salário inicial de R$1000,00;
-		Em 1996 recebeu um aumento de 1,5% sobre o seu salário inicial;
+		Esse funcionÃ¡rio foi contratado em 1995, com o salÃ¡rio inicial de R$1000,00;
+		Em 1996 recebeu um aumento de 1,5% sobre o seu salÃ¡rio inicial;
 		A partir de 1997 (inclusive), os aumentos salariais sempre corresponderam 
 		ao dobro do percentual do ano anterior (OBS: considerei aqui que o aumento dobra a cada ano).
-		Faça um programa que determine o salário atual desse funcionário.
+		FaÃ§a um programa que determine o salÃ¡rio atual desse funcionÃ¡rio.
 		*/
 
 import java.util.Locale;
@@ -38,7 +36,7 @@ public class Aula14_exercicio01 {
 				salario *= (1 + aumento);
 			}
 
-			System.out.printf("Ano: %d | Salário: R$ %.2f%n", i, salario);
+			System.out.printf("Ano: %d | SalÃ¡rio: R$ %.2f%n", i, salario);
 
 			sc.close();
 		}
